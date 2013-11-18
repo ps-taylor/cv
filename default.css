@@ -1,0 +1,30 @@
+{
+   margin:0;
+   padding:0;
+}
+
+
+.noStyle {
+  text-decoration: none; 
+  color : black;
+}
+
+
+
+body {        
+ 		
+        font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+h1 {
+        font-size:medium;
+        font-weight:bold;
+        margin-bottom:0px;
+}
+
+header {
+        text-align:center;
+        margin-bottom:2em;
+}
+
+
