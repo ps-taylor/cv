@@ -27,4 +27,17 @@ header {
         margin-bottom:2em;
 }
 
+#left {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+#right {
+    float: right;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
 
