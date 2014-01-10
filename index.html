@@ -19,7 +19,7 @@
 
 	</script>
 </head>
-<body onload="httpGet();">
+<body onload="notifyView();">
 
 	<div class="container">
 		<div class="content">
@@ -224,6 +224,7 @@
 								<li>HTML5</li>
 								<li>Responsive CSS with bootstrap 3</li>
 								<li>Google analytics tracking code enabled</li>
+								<li>Notify pageview using javascript and custom API service</li>
 							</ul>
 						</div>
 					</section>
@@ -237,9 +238,9 @@
 
 <script> 
 
-function httpGet()
+function notifyView()
 {
-    var url = 'http://flashcat.herokuapp.com/api/notify?ip='+codehelper_ip.IP+'&url='+document.URL+'&country='+codehelper_ip.Country+'&agent='+navigator.userAgent
+    var url = 'http://flashcat.herokuapp.com/api/notify?ip='+codehelper_ip.IP+'&url='+document.URL+'&country='+codehelper_ip.Country+'&agent='+navigator.userAgent+'&city='+codehelper_ip.CityName
     var xmlHttp = null;
     xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", url, true );
