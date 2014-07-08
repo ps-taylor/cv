@@ -27,6 +27,15 @@ header {
         margin-bottom:2em;
 }
 
+#indent {
+  margin-left: 20px;
+}
+
+#outer {
+
+  margin: 0 auto;
+}
+
 #left {
     float: left;
     width: 50%;
@@ -35,7 +44,7 @@ header {
 }
 #right {
     float: right;
-    width: 50%;
+    width: 5%;
     padding: 0;
     margin: 0;
 }
