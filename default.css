@@ -9,6 +9,10 @@
   color : black;
 }
 
+.fname {
+  color: darkred !important;
+}
+
 
 
 body {
