@@ -1,3 +1,3 @@
 cv
 ==
-Access here: http://paultaylor-vox.github.io/cv/
+Access here: http://ps-taylor.github.io/cv/
