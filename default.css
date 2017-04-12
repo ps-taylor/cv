@@ -5,14 +5,14 @@
 
 
 .noStyle {
-  text-decoration: none; 
+  text-decoration: none;
   color : black;
 }
 
 
 
-body {        
- 		
+body {
+
         font-family: "Open Sans", "Helvetica", "sans-serif";
 }
 
@@ -21,6 +21,15 @@ h1 {
         font-weight:bold;
         margin-bottom:0px;
 }
+
+h3 {
+  font-size:medium;
+  font-weight:bold;
+  color: gray;
+  padding-bottom: 2px;
+  border-bottom: 2px solid darkred
+}
+
 
 header {
         text-align:center;
@@ -48,5 +57,3 @@ header {
     padding: 0;
     margin: 0;
 }
-
-
